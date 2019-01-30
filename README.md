@@ -3,5 +3,15 @@
 Data analysis scripts to support Bonito et al 2018 manuscript 'Compensatory DNA methylation at amplified regions in ovarian cancer silences genes involved in growth suppression'
 
 Contents:
-1. List of required data files (available in repository)
-2. R script for data import and analysis
+DCPM_analysis.R: R script for data import and analysis
+clinical_slide_all_ov.txt: TCGA cellularity data
+full450k.rds: Illumina HumanMethylation450k annotation
+ICGC_OV-AU_CNVbyCpG.rds: ICGC copy-number data matrix
+ICGC_OV-AU_GX.rds: ICGC gene expression data matrix
+ICGC_OV-AU_Meth.rds: ICGC DNA methylation data matrix
+Illumina27k_annotation2.rds: Illumina HumanMethylation27k detailed annotation
+Illumina27k_annotation.rds: Illumina HumanMethylation27k basic annotation
+sample.OV-AU.tsv: ICGC cellularity data (and sample ID table)
+TCGA_OV_CBS.rds: TCGA copy-number data matrix
+TCGA_OV_GX.rds: TCGA gene expression data matrix
+TCGA_OV_meth.rds: TCGA DNA methylation data matrix
